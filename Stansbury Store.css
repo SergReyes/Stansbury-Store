@@ -1,0 +1,171 @@
+body{
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    
+}
+
+#container-top{
+    margin-left: -8px;
+    margin-right: -8px;
+    font-size: 100px;
+    font-family: 'Aleo', serif;
+    font-weight: 500;
+}
+
+#shs-logo{
+    padding: 10px 200px;
+    margin-bottom:-13px;
+}
+
+.header{
+    text-align: center;
+    margin-top: -260px;
+    margin-bottom:-50px;
+}
+
+#header-middle{
+    Background:#1a358f;
+    padding: 30px 0px 30px 0px;
+    text-align:center;
+    margin: -8px;
+}
+
+
+#SHS{
+    color:white;
+    font-size:50px;
+    text-decoration: none;
+    text-align:center;
+}
+
+button{
+    text-decoration: none;
+}
+
+#title-1{
+    padding-top:5px;
+    margin-left: 18%;
+    font-weight:500;
+    font-family: 'Baloo Thambi', cursive;
+}
+
+#title-2{
+    margin-left: 18%;
+    font-weight:500;
+    font-family: 'Baloo Thambi', cursive;
+}
+
+#title-3{
+    margin-left: 18%;
+    font-weight:500;
+    font-family: 'Baloo Thambi', cursive;
+}
+
+
+
+#T-shirts-container{
+    margin:auto;
+    width: 65%;    
+    height: auto;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+
+}
+
+.T-shirt-boxes{
+    background-color: #d8d8d8;
+    width:auto;
+    height:auto;
+    display: inline-block;
+    flex-grow:1;
+    margin:5px;
+
+}
+
+.Shirts{
+    width:16em;
+    padding: 20px;
+}
+
+
+
+#Hoodies-container{
+    margin:auto;
+    width: 65%;    
+    height: auto;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+
+}
+
+.hoodies-boxes{
+    background-color: #d8d8d8;
+    width:auto;
+    height:auto;
+    display: inline-block;
+    flex-grow:1;
+    margin:5px;
+
+}
+
+.Hoodies{
+    width:16em;
+    padding: 20px;
+}
+
+
+#Hats-container{
+    margin:auto;
+    width: 65%;    
+    height: auto;
+    display:flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+
+}
+
+.hats-boxes{
+    background-color: #d8d8d8;
+    width:auto;
+    height:auto;
+    display: inline-block;
+    flex-grow:1;
+    margin:5px;
+
+}
+
+.Hats{
+    width:16em;
+    padding: 20px;
+}
+
+
+figure { 
+    display: block; 
+    position: relative; 
+    overflow: hidden; 
+    width:auto;
+}
+
+figcaption { 
+    position: absolute; 
+    background: rgba(0,0,0,0.75); 
+    color: white; 
+    padding: 10px 20px; 
+  
+    opacity: 0;
+    bottom: 0; 
+    left: -30%;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition:    all 0.6s ease;
+    -o-transition:      all 0.6s ease;
+}
+  
+  figure:hover figcaption {
+    opacity: 1;
+    left: 0;
+}
+  
