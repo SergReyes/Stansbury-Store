@@ -15,7 +15,7 @@ body{
 
 #shs-logo{
     padding: 10px 200px;
-    margin-bottom:-13px;
+    margin-bottom:-15px;
 }
 
 .header{
@@ -31,7 +31,6 @@ body{
     margin: -8px;
 }
 
-
 #SHS{
     color:white;
     font-size:50px;
@@ -41,6 +40,25 @@ body{
 
 button{
     text-decoration: none;
+    border:none;
+    background-color: white;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom:-40px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition:    all 0.3s ease;
+    -o-transition:      all 0.3s ease;
+}
+
+button:hover{
+    Background-color: #000000;
+    color:white;
+}
+
+button:focus{
+    outline: none;
 }
 
 #title-1{
@@ -154,11 +172,15 @@ figcaption {
     position: absolute; 
     background: rgba(0,0,0,0.75); 
     color: white; 
-    padding: 10px 20px; 
+    padding: 10px 20px;
+    width:90%;
+    text-align: center;
+    line-height: 25px;
   
     opacity: 0;
     bottom: 0; 
-    left: -30%;
+    left: 0;
+    top: 75%;
     -webkit-transition: all 0.6s ease;
     -moz-transition:    all 0.6s ease;
     -o-transition:      all 0.6s ease;
