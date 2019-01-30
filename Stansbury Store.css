@@ -2,39 +2,36 @@ body{
     -webkit-background-size:cover;
     -moz-background-size:cover;
     -o-background-size:cover;
-    /* width:1920px;
-    height:1080px;
-     */
 }
 
 #container-top{
-    
     font-family: 'Aleo', serif;
     font-weight: 500;
 
     display:flex;
-    flex-direction: row;
     justify-content: center;
-}
-
-#shs-logo{
-    padding: 10px;
-    margin-left: -235px;
     
 }
 
+#shs-logo{
+    width:15vh;
+    padding: 10px;
+    display:flex;
+    justify-content:flex-start;
+}
+
 .header{
-    text-align: center;
-    margin-top:-35px;
-    margin-bottom:-50px;
-    justify-self: center;
+    display: flex;
     justify-content: center;
-    font-size: 80px;
+    text-align: center;
+    margin-top:-30px;
+    margin-bottom:-20px;
+    font-size: 8.5vh;
 }
 
 #header-middle{
     z-index: 1;
-    /* overflow:hidden; */
+    overflow:hidden;
     position: -webkit-sticky;
     position: sticky;
     top:0;;
@@ -58,7 +55,7 @@ button{
     border:none;
     background-color: #1a358f;
     padding: 15px 80px;
-    font-size: 20px;
+    font-size: 2.25vh;
     cursor: pointer;
     -webkit-transition: all 0.3s ease;
     -moz-transition:    all 0.3s ease;
@@ -82,17 +79,18 @@ button:focus{
 }
 
 #Shopping-cart{
-    font-size:23px;
     margin-right:-90px;
     padding-left:80px; 
     color:silver;
     margin-top: 15px;
     display:flex;
+    font-size: 2.3vh;
 }
 
 #coverpage{
     max-width:100%;
     height:auto;
+    width:1890px;
 }
 
 .title-1{
