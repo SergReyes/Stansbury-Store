@@ -2,30 +2,34 @@ body{
     -webkit-background-size:cover;
     -moz-background-size:cover;
     -o-background-size:cover;
-    
-}
-
-#top-page{
-
+    /* width:1920px;
+    height:1080px;
+     */
 }
 
 #container-top{
-    margin-left: -8px;
-    margin-right: -8px;
-    font-size: 100px;
+    font-size: 80px;
     font-family: 'Aleo', serif;
     font-weight: 500;
+
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 #shs-logo{
-    padding: 10px 200px;
+    padding: 10px;
     margin-bottom:-15px;
+    margin-left: -235px;
+
 }
 
 .header{
     text-align: center;
-    margin-top: -260px;
+    margin-top:-35px;
     margin-bottom:-50px;
+    justify-self: center;
+    justify-content: center;
 }
 
 #header-middle{
@@ -38,6 +42,9 @@ body{
     Background:#1a358f;
     text-align:center;
     margin: -8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .BTN{
@@ -53,17 +60,13 @@ button{
     padding: 15px 80px;
     font-size: 20px;
     cursor: pointer;
-    display: inline;
     -webkit-transition: all 0.3s ease;
     -moz-transition:    all 0.3s ease;
     -o-transition:      all 0.3s ease;
     text-transform: uppercase;
+    display:flex;
+    flex-shrink: 20;
 }
-
-/* #home-button{
-    float: left;
-    margin-left:200px;
-} */
 
 #button-1{
     padding-left: 100px;
@@ -85,7 +88,6 @@ button:focus{
     padding-left:80px; 
     color:silver;
     margin-top: 15px;
-    position:absolute;
 }
 
 #coverpage{
@@ -126,80 +128,78 @@ button:focus{
 #T-shirts-container{
     font-family: 'Roboto', sans-serif;
     margin:auto;
-    width: 65%;    
-    height: auto;
+    width: 65%;
     display:flex;
+    justify-content: center;
     flex-direction: row;
     flex-wrap:wrap;
-
 }
 
 .T-shirt-boxes{
-    background-color: #d8d8d8;
+    background-color: #EEEEEE;
     width:auto;
     height:auto;
-    display: inline-block;
-    flex-grow:1;
+    display:flex;
     margin:5px;
-
 }
 
 .Shirts{
     width:16em;
-    padding: 20px;
+    padding:20px;
+    align-self:center;
+    display:flex;
 }
 
 #Hoodies-container{
     font-family: 'Roboto', sans-serif;
     margin:auto;
-    width: 65%;    
-    height: auto;
+    width: 65%;
     display:flex;
+    justify-content: center;
     flex-direction: row;
     flex-wrap:wrap;
-
 }
 
 .hoodies-boxes{
-    background-color: #d8d8d8;
+    background-color: #EEEEEE;
     width:auto;
     height:auto;
-    display: inline-block;
-    flex-grow:1;
+    display:flex;
     margin:5px;
-
 }
 
 .Hoodies{
     width:16em;
-    padding: 20px;
+    padding:20px;
+    align-self:center;
+    display:flex;
 }
 
 
 #Hats-container{
     font-family: 'Roboto', sans-serif;
     margin:auto;
-    width: 65%;    
-    height: auto;
+    width: 65%;
     display:flex;
+    justify-content: center;
     flex-direction: row;
     flex-wrap:wrap;
     padding-bottom:50px;
 }
 
 .hats-boxes{
-    background-color: #d8d8d8;
+    background-color: #EEEEEE;
     width:auto;
     height:auto;
-    display: inline-block;
-    flex-grow:1;
+    display:flex;
     margin:5px;
-
 }
 
 .Hats{
     width:16em;
-    padding: 20px;
+    padding:20px;
+    align-self:center;
+    display:flex;
 }
 
 
@@ -241,12 +241,7 @@ hr{
 #social-media{
     display:flex;
     flex:row;
-    align-items:center;
-    align-content:center;
-}
-
-.twitter-timeline{
-    margin-left:500px;
+    justify-content:center;
 }
 
 #box-1{
