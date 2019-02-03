@@ -85,6 +85,7 @@ button:focus{
     margin-top: 15px;
     display:flex;
     font-size: 2.3vh;
+    text-decoration:none;
 }
 
 #coverpage{
